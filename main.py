@@ -12,7 +12,7 @@ passw = StringVar()
 
 def exit():
     root.destroy()
-
+    print('Hello')
 def sign_up():
     root.destroy()
     root2 = Tk()
